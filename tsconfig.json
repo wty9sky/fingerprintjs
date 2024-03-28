@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["es2015","ES2020.Promise", "dom"],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["src", "backend"],
+  "exclude": ["node_modules", "dist", "public"]
+}
